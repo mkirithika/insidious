@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#survey {
+    margin: auto;
+    width: 60%;
+    border: 20px;
+    border-style: solid;
+    border-color: lightblue;
+    height: 100%;
+    text-align: center;
+}
+#title {
+    padding: 5px;
+    font-family: Arial;
+    text-align: center;
+    background-color: lightblue;
+}
+#description {
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+#form-table {
+    padding-top: 20px;
+}
+td {
+    padding: 10px;
+}
+.txt-ralign {
+    text-align: right;
+}
+.txt-lalign {
+    text-align: left;
+}
+#submit {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    width: 30%;
+    margin-bottom: 10px;
+}

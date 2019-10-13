@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./survey.css">
+</head>
+
+<body>
+    <div id="survey">
+        <h1 id='title'>Survey Form</h1>
+        <p id='description'>Let us know how we can improve freeCodeCamp</p>
+        <form id='survey-form'>
+            <table id = 'form-table'>
+                <tbody>
+                    <tr>
+                        <td class='txt-ralign'>
+                            <label id='name-label'>Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" placeholder="Name" id='name' />
+                        </td>
+                    </tr>
+                    <tr class='trow'>
+                        <td class='txt-ralign'>
+                            <label id='email-label'>Email:</label>
+                        </td>
+                        <td>
+                            <input type="email" placeholder="Email" id='email' />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class='txt-ralign'>
+                            <label id='number-label'>Age:</label>
+                        </td>
+                        <td>
+                            <input type="number" placeholder="Age" id='number' />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class='txt-ralign'>
+                            <label id='role-label'>Which option best describes your current role?</label>
+                        </td>
+                        <td class="txt-lalign">
+                            <select id='roles'>
+                                <option>Admin</option>
+                                <option>Customer</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class='txt-ralign'>
+                            <label id='recomend'>How likely is that you would recommend <br>freeCodeCamp to a
+                                friend?</label>
+                        </td>
+                        <td class="txt-lalign">
+                            <input type="radio" name='recomend-friend' value='Definitely' />Definitely<br>
+                            <input type="radio" name='recomend-friend' value='Maybe' />Maybe<br>
+                            <input type="radio" name='recomend-friend' value='Not Sure' />Not Sure<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class='txt-ralign'>
+                            <label id='improve'>Things to improve:</label>
+                        </td>
+                        <td class="txt-lalign">
+                            <input type="checkbox" name='improve-thing' value='Front-end Projects' />Front-end
+                            Projects<br>
+                            <input type="checkbox" name='improve-thing' value='Back-end Projects' />Back-end
+                            Projects<br>
+                            <input type="checkbox" name='improve-thing' value='Data Visualization' />Data
+                            Visualization<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class='txt-ralign'>
+                            <label id='more-info-label'>Additional Info:</label>
+                        </td>
+                        <td class="txt-lalign">
+                            <textarea id='additional-info'></textarea>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <button id = 'submit'>Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
