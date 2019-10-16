@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body {
+    background-color: aliceblue;
+}
 #header-img {
     height: 50px;
     width: 50px;
@@ -10,8 +13,19 @@
 #logo {
     display: flex;
     width: 50%;
+    padding: 2%;
+    float: left;
 }
 #nav-bar {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
+}
+.nav-link {
+    margin-top: 10%;
+}
+#comp-name {
+    margin: 2%;
+}
+#section {
+    clear: both;
 }
