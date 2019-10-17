@@ -3,7 +3,7 @@
     margin: 0;
 }
 body {
-    background-color: aliceblue;
+    background-color: rgb(240, 234, 234);
 }
 #header-img {
     height: 50px;
@@ -13,7 +13,8 @@ body {
 #logo {
     display: flex;
     width: 50%;
-    padding: 2%;
+    padding-top: 1%;
+    padding-left: 2%;
     float: left;
 }
 #nav-bar {
@@ -21,11 +22,74 @@ body {
     justify-content: space-around;
 }
 .nav-link {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 #comp-name {
     margin: 2%;
 }
-#section {
+#form {
     clear: both;
+    margin: auto;
+    width: 80%;
+}
+#form-head {
+    display: flex;
+    justify-content: center;
+}
+#email {
+    display: flex;
+    justify-content: center;
+}
+#inp-email {
+    height: 25px;
+    width: 30%;
+    margin: 1%;
+}
+#start-btn {
+    display: flex;
+    justify-content: center;
+}
+#get-btn{
+    height: 30px;
+    width: 20%;
+    border: none;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 2px;
+}
+#premium {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 60%;
+}
+#pre-mat-img {
+    height: 50px;
+    width: 25px;
+    margin-top: 50px;
+}
+#pre-content {
+    margin-top: 40px;
+}
+#lab {
+    font-size: 16px;
+}
+#lab1 {
+    width: 720px;
+}
+#video-tag {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+#bunny {
+    width: 100%;
+}
+#price-tag-1 {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
 }
