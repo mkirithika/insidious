@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#main-div {
+    font-family: 'Courier New', Courier, monospace;
+}
+#side-bar {
+    position: fixed;
+    width: 25%;
+}
+#sidebar-head {
+    position: fixed;
+    padding: 1%;
+    margin-left: 5px;
+}
+#menus {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+}
+.menu-scroll {
+    height: 100vh;
+    overflow: auto;
+}
+label {
+    cursor: pointer;
+    padding: 8%;
+    margin-left: 2%;
+}
+#content {
+    padding-left: 28%;
+    padding-top: 2%;
+}
+#p1 {
+    padding-top: 2%;
+    padding-left: 1%;
+}
